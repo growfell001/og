@@ -1,0 +1,12 @@
+<svg width="1600" height="620" viewBox="0 0 1600 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+ <linearGradient id="back" x1="800" y1="80" x2="800" y2="620" gradientUnits="userSpaceOnUse"><stop stop-color="#0C2D43" stop-opacity=".72"/><stop offset="1" stop-color="#02080D" stop-opacity=".95"/></linearGradient>
+ <linearGradient id="front" x1="800" y1="180" x2="800" y2="620" gradientUnits="userSpaceOnUse"><stop stop-color="#0A1B28"/><stop offset="1" stop-color="#010407"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<path d="M0 440L150 300L245 392L365 210L520 390L655 270L780 395L925 170L1070 360L1205 245L1350 385L1490 290L1600 380V620H0V440Z" fill="url(#back)"/>
+<path d="M0 505L145 390L250 475L405 285L540 455L690 350L805 475L970 270L1110 455L1250 335L1395 475L1510 365L1600 440V620H0V505Z" fill="url(#front)"/>
+<path d="M405 285L365 345L432 323L470 360L540 455L475 372L405 285ZM970 270L914 342L1004 324L1050 370L1110 455L1030 360L970 270Z" fill="#42CFFF" fill-opacity=".10"/>
+<ellipse cx="800" cy="540" rx="500" ry="34" fill="#12BFFF" fill-opacity=".10" filter="url(#glow)"/>
+<ellipse cx="800" cy="532" rx="360" ry="18" stroke="#17BFFF" stroke-opacity=".5"/>
+</svg>
